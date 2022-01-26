@@ -18,8 +18,10 @@ function toggleAppStatus() {
 function updateview() {
     if (appStatus) {
         switchClassName("day");
+        switchbtntxt("day");
     } else{
         switchClassName("night");
+        switchbtntxt("night");
     }
 }
 
@@ -35,6 +37,8 @@ function switchClassName(modeStr) {
     document.body.children[1].className = modeStr;
 }
 
+// Modul: Umschaltung Klassennamen.
+// switchbtntxt
 
 
 /* Tools */
