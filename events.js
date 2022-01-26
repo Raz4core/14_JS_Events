@@ -1,6 +1,7 @@
 /** Variablen */
 
-const btn = document.getElementById("trigBtn");
+//const btn = document.getElementById("trigBtn");
+const btn = document.body;
 output(btn);
 
 /** Event-Listener ***/
