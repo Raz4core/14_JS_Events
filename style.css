@@ -31,7 +31,7 @@ p.day,h1.day{
 /** Night-Modus */
 
 body.night {
-    background-color: brown;
+    background-color:rgb(32, 32, 32);
 }
 
 p.night,h1.night{
