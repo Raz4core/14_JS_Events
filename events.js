@@ -1,8 +1,6 @@
 /** Variablen */
 const btn = document.getElementById("trigBtn");
 let appStatus =true;
-// const btn = document.body;
-output(btn);
 
 /** Event-Listener ***/
 
